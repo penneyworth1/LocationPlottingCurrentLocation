@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Term E Sec 1</string>
+		<key>latitude</key>
+		<real>32.888556</real>
+		<key>longitude</key>
+		<real>-97.037733</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term E North Bound</string>
+		<key>latitude</key>
+		<real>32.893425</real>
+		<key>longitude</key>
+		<real>-97.039756</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term D Upper Level</string>
+		<key>latitude</key>
+		<real>32.897624</real>
+		<key>longitude</key>
+		<real>-97.044107</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term D Sec 2</string>
+		<key>latitude</key>
+		<real>32.896399</real>
+		<key>longitude</key>
+		<real>-97.04374</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term D Sec 1</string>
+		<key>latitude</key>
+		<real>32.898689</real>
+		<key>longitude</key>
+		<real>-97.04376999999999</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term D Pickup</string>
+		<key>latitude</key>
+		<real>32.898667</real>
+		<key>longitude</key>
+		<real>-97.041842</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term D Dropoff</string>
+		<key>latitude</key>
+		<real>32.898012</real>
+		<key>longitude</key>
+		<real>-97.04162100000001</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term C/D South Bound</string>
+		<key>latitude</key>
+		<real>32.895126</real>
+		<key>longitude</key>
+		<real>-97.041009</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term C/D North Bound</string>
+		<key>latitude</key>
+		<real>32.900064</real>
+		<key>longitude</key>
+		<real>-97.039793</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term C Sec 3</string>
+		<key>latitude</key>
+		<real>32.899396</real>
+		<key>longitude</key>
+		<real>-97.03770799999999</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term C Sec 2</string>
+		<key>latitude</key>
+		<real>32.897554</real>
+		<key>longitude</key>
+		<real>-97.03619</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term C Sec 1</string>
+		<key>latitude</key>
+		<real>32.895681</real>
+		<key>longitude</key>
+		<real>-97.03777599999999</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term C Inner 3</string>
+		<key>latitude</key>
+		<real>32.896487</real>
+		<key>longitude</key>
+		<real>-97.038062</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term C Inner 2</string>
+		<key>latitude</key>
+		<real>32.897544</real>
+		<key>longitude</key>
+		<real>-97.03721</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term C Inner 1</string>
+		<key>latitude</key>
+		<real>32.898588</real>
+		<key>longitude</key>
+		<real>-97.03809200000001</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term B Sec 1</string>
+		<key>latitude</key>
+		<real>32.906545</real>
+		<key>longitude</key>
+		<real>-97.042996</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term A/B South Bound</string>
+		<key>latitude</key>
+		<real>32.901307</real>
+		<key>longitude</key>
+		<real>-97.04098</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term A/B North Bound</string>
+		<key>latitude</key>
+		<real>32.908144</real>
+		<key>longitude</key>
+		<real>-97.039726</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string> Term A Sec 3</string>
+		<key>latitude</key>
+		<real>32.90652</real>
+		<key>longitude</key>
+		<real>-97.037674</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term A Sec 2</string>
+		<key>latitude</key>
+		<real>32.904613</real>
+		<key>longitude</key>
+		<real>-97.03616100000001</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term A Sec 1</string>
+		<key>latitude</key>
+		<real>32.902834</real>
+		<key>longitude</key>
+		<real>-97.03770299999999</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term A Inner 3</string>
+		<key>latitude</key>
+		<real>32.90363</real>
+		<key>longitude</key>
+		<real>-97.038027</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term A Inner 2</string>
+		<key>latitude</key>
+		<real>32.904691</real>
+		<key>longitude</key>
+		<real>-97.0372</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term A Inner 1</string>
+		<key>latitude</key>
+		<real>32.905743</real>
+		<key>longitude</key>
+		<real>-97.038088</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>North Toll Exit</string>
+		<key>latitude</key>
+		<real>32.920315</real>
+		<key>longitude</key>
+		<real>-97.03963</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>North Toll Entrance</string>
+		<key>latitude</key>
+		<real>32.926356</real>
+		<key>longitude</key>
+		<real>-97.040903</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>North Lot - Ohare Dr.</string>
+		<key>latitude</key>
+		<real>32.913732</real>
+		<key>longitude</key>
+		<real>-97.011267</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>North Airfield Drive</string>
+		<key>latitude</key>
+		<real>32.925</real>
+		<key>longitude</key>
+		<real>-97.02849999999999</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Esters RTB</string>
+		<key>latitude</key>
+		<real>32.9144</real>
+		<key>longitude</key>
+		<real>-97.00854099999999</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>114 RTB</string>
+		<key>latitude</key>
+		<real>32.93032</real>
+		<key>longitude</key>
+		<real>-97.036704</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>114 RTA</string>
+		<key>latitude</key>
+		<real>32.928672</real>
+		<key>longitude</key>
+		<real>-97.04116500000001</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>114 @ Esters Blvd RTA</string>
+		<key>latitude</key>
+		<real>32.916208</real>
+		<key>longitude</key>
+		<real>-97.034632</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>TPS Office</string>
+		<key>latitude</key>
+		<real>41.88078086592382</real>
+		<key>longitude</key>
+		<real>-87.63380703697406</real>
+		<key>radius</key>
+		<integer>50</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Sheraton JFK</string>
+		<key>latitude</key>
+		<real>29.945639</real>
+		<key>longitude</key>
+		<real>-95.330951</real>
+		<key>radius</key>
+		<integer>25</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>HOU JFK Facility</string>
+		<key>latitude</key>
+		<real>29.946213</real>
+		<key>longitude</key>
+		<real>-95.328322</real>
+		<key>radius</key>
+		<integer>25</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Chicago Theater</string>
+		<key>latitude</key>
+		<real>41.88535</real>
+		<key>longitude</key>
+		<real>-87.62745</real>
+		<key>radius</key>
+		<integer>200</integer>
+	</dict>
+</array>
+</plist>
