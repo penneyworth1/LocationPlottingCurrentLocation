@@ -18,8 +18,6 @@
 @implementation ViewController
 @synthesize mapView;
 
-bool nextAnnotationIsShuttle = NO;
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -109,8 +107,10 @@ bool nextAnnotationIsShuttle = NO;
         {
             if (!error2)
             {
+                
                 for (PFObject *coordinate in objects2)
                 {
+                                  
                     NSNumber *latitude = [coordinate objectForKey:@"latitude"];
                     NSNumber *longitude = [coordinate objectForKey:@"longitude"];
                     CLLocationCoordinate2D coord;
@@ -121,6 +121,7 @@ bool nextAnnotationIsShuttle = NO;
                     ann5.title = [coordinate objectForKey:@"shuttlenumber"];
                     ann5.subtitle = [coordinate objectForKey:@"ident"];
 
+                    
                     //[mapView dequeueReusableAnnotationViewWithIdentifier:@"Hello"];
                 
                     [mapView addAnnotation:ann5];
@@ -131,7 +132,25 @@ bool nextAnnotationIsShuttle = NO;
         }];
     }
     
-    
+    //add geofence annotations again.....
+    NSString* plistPath = [[NSBundle mainBundle] pathForResource:@"regions" ofType:@"plist"];
+    _regionArray = [NSArray arrayWithContentsOfFile:plistPath];
+    NSMutableArray *geofences = [NSMutableArray array];
+    for(NSDictionary *regionDict in _regionArray)
+    {
+        CLRegion *region = [self mapDictionaryToRegion:regionDict];
+        [geofences addObject:region];
+    }
+    for(CLRegion *geofence in geofences)
+    {
+        CLLocationCoordinate2D coord;
+        coord.latitude = (CLLocationDegrees)(geofence.center.latitude);
+        coord.longitude = (CLLocationDegrees)(geofence.center.longitude);
+        
+        CLLocation *testLoc = [[CLLocation alloc] initWithLatitude:coord.latitude longitude:coord.longitude];
+        MapViewAnnotation *testAnn = [[MapViewAnnotation alloc] initWithCoordinate:testLoc.coordinate :geofence.identifier :geofence.description];
+        [mapView addAnnotation:testAnn];
+    }
     
     
 }
@@ -140,11 +159,8 @@ bool nextAnnotationIsShuttle = NO;
 {
     if ([annotation isKindOfClass:[MKUserLocation class]])
         return nil;
-    
     if ([annotation isKindOfClass:[MapViewAnnotation class]])
-        nextAnnotationIsShuttle = NO;
-    else
-        nextAnnotationIsShuttle = YES;
+        return nil;
     
     static NSString *reuseId = @"reuseid";
     MKAnnotationView *av = [mapView dequeueReusableAnnotationViewWithIdentifier:reuseId];
