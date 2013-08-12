@@ -18,6 +18,8 @@
 @implementation ViewController
 @synthesize mapView;
 
+BOOL showingGeofences;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -36,7 +38,7 @@
     
     
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    BOOL showingGeofences = [defaults boolForKey:@"showgeofences_preference"];
+    showingGeofences = [defaults boolForKey:@"showgeofences_preference"];
     
     if(showingGeofences)
     {
@@ -132,24 +134,27 @@
         }];
     }
     
-    //add geofence annotations again.....
-    NSString* plistPath = [[NSBundle mainBundle] pathForResource:@"regions" ofType:@"plist"];
-    _regionArray = [NSArray arrayWithContentsOfFile:plistPath];
-    NSMutableArray *geofences = [NSMutableArray array];
-    for(NSDictionary *regionDict in _regionArray)
+    if(showingGeofences)
     {
-        CLRegion *region = [self mapDictionaryToRegion:regionDict];
-        [geofences addObject:region];
-    }
-    for(CLRegion *geofence in geofences)
-    {
-        CLLocationCoordinate2D coord;
-        coord.latitude = (CLLocationDegrees)(geofence.center.latitude);
-        coord.longitude = (CLLocationDegrees)(geofence.center.longitude);
+        //add geofence annotations again.....
+        NSString* plistPath = [[NSBundle mainBundle] pathForResource:@"regions" ofType:@"plist"];
+        _regionArray = [NSArray arrayWithContentsOfFile:plistPath];
+        NSMutableArray *geofences = [NSMutableArray array];
+        for(NSDictionary *regionDict in _regionArray)
+        {
+            CLRegion *region = [self mapDictionaryToRegion:regionDict];
+            [geofences addObject:region];
+        }
+        for(CLRegion *geofence in geofences)
+        {
+            CLLocationCoordinate2D coord;
+            coord.latitude = (CLLocationDegrees)(geofence.center.latitude);
+            coord.longitude = (CLLocationDegrees)(geofence.center.longitude);
         
-        CLLocation *testLoc = [[CLLocation alloc] initWithLatitude:coord.latitude longitude:coord.longitude];
-        MapViewAnnotation *testAnn = [[MapViewAnnotation alloc] initWithCoordinate:testLoc.coordinate :geofence.identifier :geofence.description];
-        [mapView addAnnotation:testAnn];
+            CLLocation *testLoc = [[CLLocation alloc] initWithLatitude:coord.latitude longitude:coord.longitude];
+            MapViewAnnotation *testAnn = [[MapViewAnnotation alloc] initWithCoordinate:testLoc.coordinate :geofence.identifier :geofence.description];
+            [mapView addAnnotation:testAnn];
+        }
     }
     
     
@@ -160,7 +165,7 @@
     if ([annotation isKindOfClass:[MKUserLocation class]])
         return nil;
     if ([annotation isKindOfClass:[MapViewAnnotation class]])
-        return nil;
+        return nil; 
     
     static NSString *reuseId = @"reuseid";
     MKAnnotationView *av = [mapView dequeueReusableAnnotationViewWithIdentifier:reuseId];

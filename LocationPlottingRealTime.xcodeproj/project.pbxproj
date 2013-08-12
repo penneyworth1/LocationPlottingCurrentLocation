@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		403124D7179D8C8C00E4CFBC /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 403124D6179D8C8C00E4CFBC /* Settings.bundle */; };
-		40B991C61799BA96004B67A4 /* regions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40B991C51799BA96004B67A4 /* regions.plist */; };
+		405B3C5A17B04F40001A081B /* regions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 405B3C5917B04F40001A081B /* regions.plist */; };
 		40C3811F17A868F20044C8D0 /* MapViewAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C3811E17A868F20044C8D0 /* MapViewAnnotation.m */; };
 		622C1F4416F49C8500B9881D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622C1F4316F49C8500B9881D /* UIKit.framework */; };
 		622C1F4616F49C8500B9881D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622C1F4516F49C8500B9881D /* Foundation.framework */; };
@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		403124D6179D8C8C00E4CFBC /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
-		40B991C51799BA96004B67A4 /* regions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = regions.plist; sourceTree = "<group>"; };
+		405B3C5917B04F40001A081B /* regions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = regions.plist; sourceTree = "<group>"; };
 		40C3811D17A868F20044C8D0 /* MapViewAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewAnnotation.h; sourceTree = "<group>"; };
 		40C3811E17A868F20044C8D0 /* MapViewAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewAnnotation.m; sourceTree = "<group>"; };
 		622C1F4016F49C8500B9881D /* LocationPlottingRealTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationPlottingRealTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -163,7 +163,7 @@
 		622C1F4A16F49C8500B9881D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				40B991C51799BA96004B67A4 /* regions.plist */,
+				405B3C5917B04F40001A081B /* regions.plist */,
 				622C1F4B16F49C8500B9881D /* LocationPlottingRealTime-Info.plist */,
 				622C1F4C16F49C8500B9881D /* InfoPlist.strings */,
 				622C1F4F16F49C8500B9881D /* main.m */,
@@ -252,8 +252,8 @@
 				622C1F5D16F49C8500B9881D /* MainStoryboard.storyboard in Resources */,
 				62EACFBD177352FE00B02F00 /* spots_144.png in Resources */,
 				62EACFBF1773530400B02F00 /* spots_72.png in Resources */,
-				40B991C61799BA96004B67A4 /* regions.plist in Resources */,
 				403124D7179D8C8C00E4CFBC /* Settings.bundle in Resources */,
+				405B3C5A17B04F40001A081B /* regions.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,8 +329,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "A37661DA-A2EA-46EA-90C9-013C4422723E";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A37661DA-A2EA-46EA-90C9-013C4422723E";
+				PROVISIONING_PROFILE = "6E2C01F7-BE4F-45FC-B77D-5BDD9719F60E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6E2C01F7-BE4F-45FC-B77D-5BDD9719F60E";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -357,8 +357,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "A37661DA-A2EA-46EA-90C9-013C4422723E";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A37661DA-A2EA-46EA-90C9-013C4422723E";
+				PROVISIONING_PROFILE = "6E2C01F7-BE4F-45FC-B77D-5BDD9719F60E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6E2C01F7-BE4F-45FC-B77D-5BDD9719F60E";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
