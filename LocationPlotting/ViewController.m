@@ -157,9 +157,8 @@ BOOL showingGeofences;
         }
     }
     
-    
 }
--(MKAnnotationView *)mapView:(MKMapView *)mapView
+-(MKAnnotationView *)mapView:(MKMapView *)mapViewPar
            viewForAnnotation:(id<MKAnnotation>)annotation
 {
     if ([annotation isKindOfClass:[MKUserLocation class]])
@@ -168,7 +167,7 @@ BOOL showingGeofences;
         return nil; 
     
     static NSString *reuseId = @"reuseid";
-    MKAnnotationView *av = [mapView dequeueReusableAnnotationViewWithIdentifier:reuseId];
+    MKAnnotationView *av = [mapViewPar dequeueReusableAnnotationViewWithIdentifier:reuseId];
     if (av == nil)
     {
         av = [[MKAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:reuseId];

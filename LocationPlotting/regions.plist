@@ -1,207 +1,206 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <array>
-        <dict>
-            <key>title</key>
-            <string>Term A Sec 1</string>
-            <key>latitude</key>
-            <real>32.90279953</real>
-            <key>longitude</key>
-            <real>-97.03865322</real>
-            <key>radius</key>
-            <integer>10</integer>
-        </dict>
-        <dict>
-            <key>title</key>
-            <string>Term A Sec 3</string>
-            <key>latitude</key>
-            <real>32.90668219</real>
-            <key>longitude</key>
-            <real>-97.03821509</real>
-            <key>radius</key>
-            <integer>10</integer>
-        </dict>
-        <dict>
-            <key>title</key>
-            <string>Term B Sec 2</string>
-            <key>latitude</key>
-            <real>32.90512150</real>
-            <key>longitude</key>
-            <real>-97.04452277</real>
-            <key>radius</key>
-            <integer>10</integer>
-        </dict>
-        <dict>
-            <key>title</key>
-            <string>Term B Sec 3</string>
-            <key>latitude</key>
-            <real>32.90278184</real>
-            <key>longitude</key>
-            <real>-97.04245279</real>
-            <key>radius</key>
-            <integer>10</integer>
-        </dict>
-        <dict>
-            <key>title</key>
-            <string>Term C Sec 1</string>
-            <key>latitude</key>
-            <real>32.89564302</real>
-            <key>longitude</key>
-            <real>-97.03805585</real>
-            <key>radius</key>
-            <integer>10</integer>
-        </dict>
-        <dict>
-            <key>title</key>
-            <string>Term C Sec 2</string>
-            <key>latitude</key>
-            <real>32.88861300</real>
-            <key>longitude</key>
-            <real>-97.03824200</real>
-            <key>radius</key>
-            <integer>10</integer>
-        </dict>
-        <dict>
-            <key>title</key>
-            <string>Term C Sec 3</string>
-            <key>latitude</key>
-            <real>32.89955176</real>
-            <key>longitude</key>
-            <real>-97.03842412</real>
-            <key>radius</key>
-            <integer>10</integer>
-        </dict>
-        <dict>
-            <key>title</key>
-            <string>Term D Sec 1 Arrival</string>
-            <key>latitude</key>
-            <real>32.89894901</real>
-            <key>longitude</key>
-            <real>-97.04295647</real>
-            <key>radius</key>
-            <integer>10</integer>
-        </dict>
-        <dict>
-            <key>title</key>
-            <string>Term D Sec 2 Arrival</string>
-            <key>latitude</key>
-            <real>32.89668063</real>
-            <key>longitude</key>
-            <real>-97.04377272</real>
-            <key>radius</key>
-            <integer>10</integer>
-        </dict>
-        <dict>
-            <key>title</key>
-            <string>Term D Sec 1 Dropoff</string>
-            <key>latitude</key>
-            <real>32.89822253</real>
-            <key>longitude</key>
-            <real>-97.04400399</real>
-            <key>radius</key>
-            <integer>10</integer>
-        </dict>
-        <dict>
-            <key>title</key>
-            <string>Term D Sec 2 Dropoff</string>
-            <key>latitude</key>
-            <real>32.89660160</real>
-            <key>longitude</key>
-            <real>-97.04375999</real>
-            <key>radius</key>
-            <integer>10</integer>
-        </dict>
-        <dict>
-            <key>title</key>
-            <string>Term E Sec 1</string>
-            <key>latitude</key>
-            <real>32.88852907</real>
-            <key>longitude</key>
-            <real>-97.03821184</real>
-            <key>radius</key>
-            <integer>10</integer>
-        </dict>
-        <dict>
-            <key>title</key>
-            <string>Term E Sec 2</string>
-            <key>latitude</key>
-            <real>32.89083100</real>
-            <key>longitude</key>
-            <real>-97.03633517</real>
-            <key>radius</key>
-            <integer>10</integer>
-        </dict>
-        <dict>
-            <key>title</key>
-            <string>Term E Sec 3</string>
-            <key>latitude</key>
-            <real>32.89190765</real>
-            <key>longitude</key>
-            <real>-97.03703167</real>
-            <key>radius</key>
-            <integer>10</integer>
-        </dict>
-        <dict>
-            <key>title</key>
-            <string>Term C Inner 1</string>
-            <key>latitude</key>
-            <real>32.89760000</real>
-            <key>longitude</key>
-            <real>-97.03716700</real>
-            <key>radius</key>
-            <integer>10</integer>
-        </dict>
-        <dict>
-            <key>title</key>
-            <string>Term C Inner 2</string>
-            <key>latitude</key>
-            <real>32.89560800</real>
-            <key>longitude</key>
-            <real>-97.03878300</real>
-            <key>radius</key>
-            <integer>10</integer>
-        </dict>
-        <dict>
-            <key>title</key>
-            <string>Term C Inner 3</string>
-            <key>latitude</key>
-            <real>32.89565700</real>
-            <key>longitude</key>
-            <real>-97.03797000</real>
-            <key>radius</key>
-            <integer>10</integer>
-        </dict>
-        <dict>
-            <key>title</key>
-            <string>Term D Dropoff</string>
-            <key>latitude</key>
-            <real>32.89905800</real>
-            <key>longitude</key>
-            <real>-97.04198500</real>
-            <key>radius</key>
-            <integer>10</integer>
-        </dict>
-        <dict>
-            <key>title</key>
-            <string>Term D Pickup</string>
-            <key>latitude</key>
-            <real>32.89651500</real>
-            <key>longitude</key>
-            <real>-97.04364300</real>
-            <key>radius</key>
-            <integer>10</integer>
-        </dict>
-        <dict>
-            <key>title</key>
-            <string>DFW North - Ohare Dr.</string>
-            <key>latitude</key>
-            <real>32.91460200</real>
-            <key>longitude</key>
-            <real>-97.00861000</real>
-            <key>radius</key>
-            <integer>10</integer>
-        </dict>
-        
-    </array>
+<array>
+	<dict>
+		<key>title</key>
+		<string>Term A Sec 1</string>
+		<key>latitude</key>
+		<real>32.9028</real>
+		<key>longitude</key>
+		<real>-97.038653</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term A Sec 3</string>
+		<key>latitude</key>
+		<real>32.906682</real>
+		<key>longitude</key>
+		<real>-97.03821499999999</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term B Sec 2</string>
+		<key>latitude</key>
+		<real>32.905122</real>
+		<key>longitude</key>
+		<real>-97.044523</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term B Sec 3</string>
+		<key>latitude</key>
+		<real>32.902782</real>
+		<key>longitude</key>
+		<real>-97.04245299999999</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term C Sec 1</string>
+		<key>latitude</key>
+		<real>32.895643</real>
+		<key>longitude</key>
+		<real>-97.038056</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term C Sec 2</string>
+		<key>latitude</key>
+		<real>32.896731</real>
+		<key>longitude</key>
+		<real>-97.036406</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term C Sec 3</string>
+		<key>latitude</key>
+		<real>32.899552</real>
+		<key>longitude</key>
+		<real>-97.03842400000001</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term D Sec 1</string>
+		<key>latitude</key>
+		<real>32.898949</real>
+		<key>longitude</key>
+		<real>-97.042956</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term D Sec 2</string>
+		<key>latitude</key>
+		<real>32.896681</real>
+		<key>longitude</key>
+		<real>-97.043773</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term D Sec 1 Departure</string>
+		<key>latitude</key>
+		<real>32.898223</real>
+		<key>longitude</key>
+		<real>-97.044004</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term D Sec 2 Departure</string>
+		<key>latitude</key>
+		<real>32.896602</real>
+		<key>longitude</key>
+		<real>-97.04376000000001</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term E Sec 1</string>
+		<key>latitude</key>
+		<real>32.888529</real>
+		<key>longitude</key>
+		<real>-97.038212</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term E Sec 2</string>
+		<key>latitude</key>
+		<real>32.890831</real>
+		<key>longitude</key>
+		<real>-97.03633499999999</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term E Sec 3</string>
+		<key>latitude</key>
+		<real>32.891908</real>
+		<key>longitude</key>
+		<real>-97.037032</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term C Inner 1</string>
+		<key>latitude</key>
+		<real>32.898617</real>
+		<key>longitude</key>
+		<real>-97.03819300000001</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term C Inner 2</string>
+		<key>latitude</key>
+		<real>32.8976</real>
+		<key>longitude</key>
+		<real>-97.037167</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term C Inner 3</string>
+		<key>latitude</key>
+		<real>32.896502</real>
+		<key>longitude</key>
+		<real>-97.038027</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term D Departure Road</string>
+		<key>latitude</key>
+		<real>32.899058</real>
+		<key>longitude</key>
+		<real>-97.041985</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Term D Arrival Road</string>
+		<key>latitude</key>
+		<real>32.897679</real>
+		<key>longitude</key>
+		<real>-97.04163800000001</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>DFW North - Ohare Dr.</string>
+		<key>latitude</key>
+		<real>32.913738</real>
+		<key>longitude</key>
+		<real>-97.011263</real>
+		<key>radius</key>
+		<integer>10</integer>
+	</dict>
+</array>
 </plist>
